@@ -71,13 +71,13 @@
 <br>
 ## Forma zaliczenia:
 Na ocenę końcową tego przedmiotu składają się:
-* ocena wykonanego przez studenta programu komputerowego (waga: 50%)
+* ocena wykonywanych przez studenta skryptów Pythona (waga: 50%)
 * ocena odpowiedzi studenta na pytania koordynatora dotyczące działania aplikacji (waga: 30%)
 * obecność + aktywność na zajęciach (waga: 20%)
 
 ## Dobre praktyki
 * [PEP 20 - The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - filozofia Pythona w 20 wersach
-* [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) - jak pisać piękny kod
+* [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) - jak pisać piękny kod Pythona
 
 ## Materiały dodatkowe:
 1. Tutoriale (on-line):
