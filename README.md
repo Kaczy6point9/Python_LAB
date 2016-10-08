@@ -34,7 +34,7 @@
 ## Spis treści:
 
 #### 1. Typy i operacje
-* lab01 - Liczby, Boolean, Ciągi znaków [[tutorial](./lectures/L01-numbers_bool_strings.ipynb)] [[zadania](./exercises/Ex01.md)]
+* lab01 - Liczby, Boolean, Ciągi znaków [[tutorial](./tutorials/L01-numbers_bool_strings.ipynb)]
 * lab02 - Listy, Słowniki
 * lab03 - Zbiory, Krotki, Pliki
 
