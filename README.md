@@ -47,7 +47,7 @@
 * lab07 - Klasy (1) 
 * lab08 - Klasy (2)
 
-#### 4. Narzędzia Pythona (zajęcia przygotowują studenci w grupach 2-3 os.)
+#### 4. Narzędzia Pythona (opracowanie tematów przygotowują studenci 1-2 os.)
 * lab09
     * Wyrażenia regularne (moduł `re`)
     * Pobieranie danych z internetu (moduł `urllib2`)
@@ -62,7 +62,7 @@
 * lab 11 - Moduł `Bio.SeqIO`
 * lab 12 - Moduł `Bio.AlignIO`
 
-#### 6. Projekt (2-3 osobowe zespoły)
+#### 6. Projekt (1- lub 2-osobowe zespoły)
 * lab 13 - Praca nad projektem (1)
 * lab 14 - Praca nad projektem (2)
 * lab 15 - Prezentacja projektu
