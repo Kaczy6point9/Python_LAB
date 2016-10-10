@@ -72,7 +72,7 @@
 ## Forma zaliczenia:
 Na ocenę końcową tego przedmiotu składają się:
 * ocena wykonywanych przez studenta skryptów Pythona (waga: 50%)
-* ocena odpowiedzi studenta na pytania koordynatora dotyczące działania aplikacji (waga: 30%)
+* ocena odpowiedzi studenta na pytania dotyczące działania aplikacji (waga: 30%)
 * obecność + aktywność na zajęciach (waga: 20%)
 
 ## Dobre praktyki
