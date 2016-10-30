@@ -36,10 +36,10 @@
 #### 1. Typy i operacje
 * lab01 - Liczby, Boolean, Ciągi znaków [[tutorial](./tutorials/L01-numbers_bool_strings.ipynb)] [[zadania](./exercises/Ex01.md)]
 * lab02 - Listy, Słowniki [[tutorial](./tutorials/L02-lists_dictionaries.ipynb)] [[zadania](./exercises/Ex02.md)]
-* lab03 - Zbiory, Krotki, Pliki [[tutorial](./tutorials/L03-sets_tuples_files.ipynb)]
+* lab03 - Zbiory, Krotki, Pliki [[tutorial](./tutorials/L03-sets_tuples_files.ipynb)][[zadania](./exercises/Ex03.md)]
 
 #### 2. Instrukcje i składnia
-* lab04 - Instrukcja `if`, pętle `for` i `while`
+* lab04 - Instrukcja `if`, pętle `for` i `while` [[tutorial](./tutorials/L04-if_for_while.ipynb)]
 * lab05 - Funkcje i moduły (1)
 * lab06 - Funkcje i moduły (2)
 
