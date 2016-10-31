@@ -39,7 +39,7 @@
 * lab03 - Zbiory, Krotki, Pliki [[tutorial](./tutorials/L03-sets_tuples_files.ipynb)][[zadania](./exercises/Ex03.md)]
 
 #### 2. Instrukcje i składnia
-* lab04 - Instrukcja `if`, pętle `for` i `while` [[tutorial](./tutorials/L04-if_for_while.ipynb)]
+* lab04 - Instrukcja `if`, pętle `for` i `while` [[tutorial](./tutorials/L04-if_for_while.ipynb)][[zadania](./exercises/Ex04.md)]
 * lab05 - Funkcje i moduły (1)
 * lab06 - Funkcje i moduły (2)
 
