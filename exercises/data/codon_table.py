@@ -12,7 +12,7 @@ codon_table = {
          'GTT': 'V', 'GTC': 'V', 'GTA': 'V', 'GTG': 'V', 'GCT': 'A',
          'GCC': 'A', 'GCA': 'A', 'GCG': 'A', 'GAT': 'D', 'GAC': 'D',
          'GAA': 'E', 'GAG': 'E', 'GGT': 'G', 'GGC': 'G', 'GGA': 'G',
-         'GGG': 'G'. 'TAA': '*', 'TAG': '*', 'TGA':'*'
+         'GGG': 'G', 'TAA': '*', 'TAG': '*', 'TGA':'*'
     },
     'vertebrate_mitochondrial': {
          'TTT': 'F', 'TTC': 'F', 'TTA': 'L', 'TTG': 'L', 'TCT': 'S',
