@@ -41,7 +41,7 @@
 #### 2. Instrukcje i składnia
 * lab04 - Instrukcja `if`, pętle `for` i `while` [[tutorial](./tutorials/L04-if_for_while.ipynb)][[zadania](./exercises/Ex04.md)]
 * lab05 - Funkcje i moduły (1) [[tutorial](./tutorials/L05-functions_modules.ipynb)][[zadania](./exercises/Ex05.md)]
-* lab06 - Funkcje i moduły (2)
+* lab06 - Funkcje i moduły (2) [[zadania](./exercises/Ex06.md)]
 
 #### 3. Programownie zorientowane obiektowo
 * lab07 - Klasy (1) 
