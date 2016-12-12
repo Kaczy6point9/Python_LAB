@@ -18,10 +18,8 @@ def stringmutation(sentence):
 
 def sentence_score(sentence, final_sentence):
 	sen_score=0	
-	sen = list(sentence)
-	final = list(final_sentence)
-	for x in range(len(final)):
-		if sen[x] == final[x]:
+	for x in range(len(final_sentence)):
+		if sentence[x] == final_sentence[x]:
 			sen_score += 1
 	return(sen_score)
 
