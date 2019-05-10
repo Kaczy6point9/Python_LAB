@@ -1,0 +1,35 @@
+{% extends 'myapp/base.html' %}
+{% block nav-item-blog%} active {% endblock %}
+{% block page_title%}Blog{% endblock %}
+{% block content%}
+
+<div class="container">
+<div class="row">
+   <div class="col-12">
+      <h1>Blog</h1>
+      <div class="list-group">
+         {% for obj in object_list%}
+         <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+               <h5 class="mb-1">{{ obj.title|title }}</h5>
+               <small> {{ obj.date_publish|timesince}} ago</small>
+            </div>
+            <p class="mb-1">{{ obj.body|truncatewords:5}}</p>
+            <br>
+            <a href="{% url 'blog:post_detail_view' obj.id %}" class="btn btn-dark btn-sm">Read More</a>
+            </br>
+            <br>
+            <small class="blog-post-meta"> <a href="#">Kaczy</a></small>
+            <small>Updated: {{ obj.date_update}}</small>
+            </br>
+         </div>
+         {% empty %}
+         <h2 class="blog-post-title">Sorry no posts here</h2>
+         {% endfor %}
+      
+      </div>
+   </div>
+</div>
+</div>
+{% endblock %}
+

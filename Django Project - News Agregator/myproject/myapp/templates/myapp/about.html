@@ -1,0 +1,43 @@
+{% extends 'myapp/base.html' %}
+{% block nav-item-about%} active {% endblock %}
+
+{% block page_title%}About{% endblock %}
+
+{% block content%}
+
+    
+    <div class="container">
+      <img src="profile.jpg" class="rounded-circle float-right" alt="Foto" width="120px">
+      <h1 class="display-4">About</h1>
+      <p class="lead">I'm a <span class="text-primary">#bioinformatics</span> student obsessed with #molecular biology, #web technologies and #beer.</p>
+      <hr class="my-4">
+      <p>I'm interested in molecular basis of genetic diseases as well as my games addiction. Also I like trains. And below there is list of my TV series</p>
+ 
+
+    <!-- begin::Table -->
+    <div class="table-striped">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Year</th>
+          <th>Seasons</th>
+          <th>Playing</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for row in tvseries %}
+        <tr>
+          <td>{{ row.title }}</td>
+          <td>{{ row.genre|capfirst }}</td>
+          <td>{{ row.year }}</td>
+          <td>{{ row.seasons }}</td>
+          <td>{{ row.ongoing|yesno:"yes,no" }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+         </div>
+    <!-- end::Table -->
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'myapp/base.html' %}
+{% block nav-item-blog%} active {% endblock %}
+
+{% block page_title%}Blog{% endblock %}
+
+{% block content%}
+
+  
+    <div class="container">
+    <div class="col-4">
+    <h1 class="display-4">Blog</h1>
+    <hr class="my-4">
+        <h2> {{ object.title }} </h2>
+        <p> {{ object.body}} </p>
+        <p> {{ object.date_publish }} </p>
+    
+    </div>
+    </div>
+
+
+
+    
+  
+
+{% endblock %}

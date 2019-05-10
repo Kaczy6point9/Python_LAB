@@ -1,0 +1,46 @@
+{% extends 'myapp/base.html' %}
+{% block nav-item-news%} active {% endblock %}
+{% block page_title%}News{% endblock %}
+{% block content%}
+<div class="container">
+<h1 class="display-4">News</h1>
+
+<div class="btn-group">
+	{% for source in sources_key %}
+   {% if source == selected_site %}
+      
+      <button type="button" class="btn btn-dark btn-sm" disabled>{% filter upper %}{{ source }}{% endfilter %}</button>
+       
+
+   {% else %}
+       <a href="{% url 'news:index' source  %}" class="btn btn-dark btn-sm">{% filter upper %}{{source}}{% endfilter %}</a>
+   {% endif %}
+
+   {% endfor %}
+   </div>
+<hr class="my-4">
+
+
+
+{% if newsapi.status == 'ok' %}
+<div class="card-columns">
+   {% for article in newsapi.articles %}
+   <div class="card">
+      <img class="card-img-top" src="{{ article.urlToImage }}" alt="{{ article.title|slugify }}">
+      <div class="card-body">
+         <h4 class="card-title"><a target="_blank" href="{{article.url}}">{{ article.title }}</a></h4>
+         <p class="card-text">{{ article.description }}</p>
+         <p class="card-text"><small class="text-muted">{{ article.publishedAt }}</small></p>
+      </div>
+      </div>
+      {% endfor %}
+   </div>
+   {% else %}
+   <div class="alert alert-warning" role="alert">
+         Sorry, no news were found. Try again later.
+   </div>
+   {% endif %}
+   
+</div>
+{% endblock %}
+
